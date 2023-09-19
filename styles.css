@@ -19,6 +19,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
 
 header div{
@@ -181,8 +182,8 @@ footer{
         flex-direction: column;
     }
 
-    .nutri-container, .fisio-container{
-        padding-top: 50px;
+    header nav{
+        display: none;
     }
 
     .title{
@@ -190,8 +191,26 @@ footer{
         bottom: 150px;
     }
 
+    .service-container h3{
+        font-size: 16px;
+    }
+
+    .service-container p{
+        font-size: 14px;
+    }
+
+    .trat-corp-container, .trat-fac-container, .nutri-container, .fisio-container{
+        width: 170px;
+    }
+
+    .nutri-container, .fisio-container{
+        padding-top: 50px;
+    }
+
     .aboutUs-container section{
         width: auto;
+        padding: 45px 30px;
+        margin: 35px;
     }
 
     footer{
