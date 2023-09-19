@@ -177,6 +177,10 @@ footer{
 
 
 @media(max-width: 490px) {
+
+    .background{
+        background-image: url('./img/background_responsive.jpg');
+    }
     
     header{
         flex-direction: column;
