@@ -203,6 +203,11 @@ footer{
         width: 170px;
     }
 
+    .trat-corp-container:hover, .trat-fac-container:hover, .nutri-container:hover, .fisio-container:hover{
+        transition: 0ms;
+        scale: 1;
+    }
+
     .nutri-container, .fisio-container{
         padding-top: 50px;
     }
