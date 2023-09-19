@@ -162,6 +162,12 @@ footer{
     margin-left: 5px;
 }
 
+.contactanos-container, .direccion-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .logo-footer{
     width: 100px;
     position: relative;
@@ -169,3 +175,45 @@ footer{
 }
 
 
+@media(max-width: 490px) {
+    
+    header{
+        flex-direction: column;
+    }
+
+    .nutri-container, .fisio-container{
+        padding-top: 50px;
+    }
+
+    .title{
+        top: auto;
+        bottom: 150px;
+    }
+
+    .aboutUs-container section{
+        width: auto;
+    }
+
+    footer{
+        flex-wrap: wrap;
+    }
+
+    .direccion-container{
+        margin-top: 30px;
+    }
+
+    .direccion-container .indicador-footer{
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+
+    .direccion-container{
+        width: 100%;
+    }
+
+    .logo-footer{
+        position: static;
+        margin-top: 30px;
+    }
+
+}
