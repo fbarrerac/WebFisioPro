@@ -169,6 +169,10 @@ footer{
     align-items: center;
 }
 
+.direccion-container .p-footer{
+    text-align: center;
+}
+
 .especialistas-container .p-footer{
     text-align: center;
 }
